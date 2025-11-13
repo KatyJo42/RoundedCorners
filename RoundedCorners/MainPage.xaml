@@ -4,9 +4,14 @@
              x:Class="RoundedCorners.MainPage">
     
     <StackLayout VerticalOptions="Center">
-        <Image Source="bart_main" />
+        
+        <Frame CornerRadius="20" Padding="0" 
+               HorizontalOptions="Center" 
+               IsClippedToBounds="True">
+            
+            <Image Source="bart_main" />
+        </Frame>
+        
     </StackLayout>
-
-  
-
+    
 </ContentPage>
